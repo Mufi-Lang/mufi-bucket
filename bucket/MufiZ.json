@@ -6,15 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_x86_64-windows.zip",
-            "hash": "7bbd46cca3a6e9db58bdee656d3764eb8ede90f8f6d20078395e9bf968389dc0"
-        }, 
+            "hash": "a6517a02d0cad62f2f255f42a5f0184596d0bb42401ac2abd5a0f2da9c28f77a"
+        },
         "32bit": {
-            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_x86-windows-gnu.zip", 
-            "hash": "2ee9f5300e3bcdd0177fc7a7abf4288e16f070796e5f2c846a7c86903dfab823"
+            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_x86-windows-gnu.zip",
+            "hash": "fb38144274f260830d012f2554311a65d2381bef4751d3e3204fed8f25d6592c"
         },
         "arm64": {
-            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_aarch64-windows.zip", 
-            "hash": "536f846d6e88f6fb377c7b3fe237d80a25eef3e206a14c22fae38ab29df1b236"
+            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_aarch64-windows.zip",
+            "hash": "d9523a05b7935f2b72e62f7840771bfdee340289e25a0331aa4bba0db041bcf8"
         }
     },
     "bin": "mufiz.exe",
@@ -23,15 +23,12 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_x86_64-windows.zip"
-            }, 
+            },
             "32bit": {
-                "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_x86-windows-gnu.zip" 
+                "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_x86-windows-gnu.zip"
             },
             "arm64": {
                 "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_aarch64-windows.zip"
-            }, 
-            "hash": {
-                "url": "$baseurl/checksums.txt"
             }
         }
     }
