@@ -1,0 +1,38 @@
+{
+    "version": "0.6.0",
+    "homepage": "https://github.com/Mustafif/MufiZ",
+    "description": "The Official MufiZ Compiler",
+    "license": "GPLv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_x86_64-windows.zip",
+            "hash": "7bbd46cca3a6e9db58bdee656d3764eb8ede90f8f6d20078395e9bf968389dc0"
+        }, 
+        "32bit": {
+            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_x86-windows-gnu.zip", 
+            "hash": "2ee9f5300e3bcdd0177fc7a7abf4288e16f070796e5f2c846a7c86903dfab823"
+        },
+        "arm64": {
+            "url": "https://github.com/Mustafif/MufiZ/releases/download/v0.6.0/mufiz_0.6.0_aarch64-windows.zip", 
+            "hash": "536f846d6e88f6fb377c7b3fe237d80a25eef3e206a14c22fae38ab29df1b236"
+        }
+    },
+    "bin": "mufiz.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_x86_64-windows.zip"
+            }, 
+            "32bit": {
+                "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_x86-windows-gnu.zip" 
+            },
+            "arm64": {
+                "url": "https://github.com/Mustafif/MufiZ/releases/download/v$version/mufiz_$version_aarch64-windows.zip"
+            }, 
+            "hash": {
+                "url": "$baseurl/checksums.txt"
+            }
+        }
+    }
+}
