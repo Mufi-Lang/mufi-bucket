@@ -2,7 +2,7 @@ import requests
 import hashlib
 import json
 
-TAG = "next-experimental"
+TAG = "v0.7.0"
 VERSION = "0.7.0"
 
 
