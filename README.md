@@ -9,6 +9,8 @@
 ```pwsh
 scoop bucket add mufi-bucket https://github.com/mustafif/mufi-bucket
 scoop install mufi-bucket/MufiZ
+# To install next experimental compiler:
+scoop install mufi-bucket/MufiZ-Next
 ```
 
 ## How do I contribute new manifests?
