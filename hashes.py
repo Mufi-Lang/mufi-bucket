@@ -2,8 +2,8 @@ import requests
 import hashlib
 import json
 
-TAG = "v0.7.0"
-VERSION = "0.7.0"
+TAG = "next-experimental"
+VERSION = "0.8.0"
 
 
 links = [
